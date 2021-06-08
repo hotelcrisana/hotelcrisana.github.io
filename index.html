@@ -4,12 +4,12 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta charset="UTF-8" />
       <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
-      <link rel="stylesheet" type="text/css" href="aos.css" />
-	  <script src="aos.js"></script>
       <link rel="stylesheet" type="text/css" href="style.css" />
+	  <link rel="stylesheet" type="text/css" href="aos.css" />
       <script src="jquery.js"></script>
       <script src="popper.js"></script>
       <script src="bootstrap.js"></script>
+	  <script src="aos.js"></script>
       <script src="index.js"></script>
    </head>
    <body>
@@ -37,14 +37,14 @@
       <div class="jumbotron-fluid jumbotron-start">
          <div class="grey-panel">
             <div class="container">
-               <h1 class="display-1">Hotel Crisana</h1>
-               <p>Petreceți o vacanță de neuitat în Eforie Sud, la Hotel Crișana!</p>
+               <h1 class="display-1" data-aos="fade-up">Hotel Crisana</h1>
+               <p data-aos="fade-up">Petreceți o vacanță de neuitat în Eforie Sud, la Hotel Crișana!</p>
             </div>
          </div>
       </div>
       <div class="content">
-         <div class="container" data-aos="fade-up">
-            <p>Petreceți o vacanță de neuitat în Eforie Sud, la Hotel Crișana! Gazda noastră, domnul Levent, vă primește cu multă ospitalitate așa încât să vă încânte sufletele după un an greu și încărcat.</p>
+         <div class="container">
+            <p data-aos="fade-up">Petreceți o vacanță de neuitat în Eforie Sud, la Hotel Crișana! Gazda noastră, domnul Levent, vă primește cu multă ospitalitate așa încât să vă încânte sufletele după un an greu și încărcat.</p>
          </div>
          <div id="terasa" class="carousel slide" data-ride="carousel">
             <h1>Terasa</h1>
@@ -72,7 +72,7 @@
             </a>
          </div>
          <div class="container">
-            <p>Hotelul nostru dispune de 150 camere cu bai proprii.</p>
+            <p data-aos="fade-left">Hotelul nostru dispune de 150 camere cu bai proprii.</p>
          </div>
          <div id="camera" class="carousel slide" data-ride="carousel">
             <h1>Camere</h1>
@@ -117,7 +117,7 @@
             </a>
          </div>
          <div class="container">
-            <p>Pensiune completă (mic dejun+prânz+cina)= la prețuri imbatabile. Acceptăm plata cu cardul și cu tichete de vacanță.</p>
+            <p data-aos="fade-right">Pensiune completă (mic dejun+prânz+cina)= la prețuri imbatabile. Acceptăm plata cu cardul și cu tichete de vacanță.</p>
          </div>
          <div id="restaurant" class="carousel slide" data-ride="carousel">
             <h1>Restaurant</h1>
@@ -141,11 +141,11 @@
             </a>
          </div>
          <div class="container">
-            <p>Va așteptăm sa vă ospătăm cu mâncărurile noastre tradiționale și să vă cinstim cu cele mai rafinate băuturi.</p>
-            <p>La cerere se poate aranja o serată muzicală, dans sau alte activități inedite pentru a crea amintiri de vacanță unice!</p>
+            <p data-aos="fade-down">Va așteptăm sa vă ospătăm cu mâncărurile noastre tradiționale și să vă cinstim cu cele mai rafinate băuturi.</p>
+            <p data-aos="fade-down">La cerere se poate aranja o serată muzicală, dans sau alte activități inedite pentru a crea amintiri de vacanță unice!</p>
          </div>
       </div>
-      <div class="container-fluid footer">
+      <div class="container-fluid footer" data-aos="fade-left">
          <div class="row">
             <div class="col-sm-2">
             </div>
@@ -159,6 +159,9 @@
             </div>
          </div>
       </div>
+	  <script>
+		AOS.init();
+	  </script>
    </body>
 </html>
 
